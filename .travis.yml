@@ -1,0 +1,12 @@
+language: java
+env:
+  - SCALA_VERSION=2.11.7
+os:
+  - osx
+script:
+  - ./sbt "++$SCALA_VERSION" test
+matrix:
+  include:
+    - env: SCALA_VERSION=2.10.5
+      os: linux
+      jdk: oraclejdk8
