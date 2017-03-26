@@ -1,12 +1,8 @@
-language: java
-env:
-  - SCALA_VERSION=2.11.7
-os:
-  - osx
+language: scala
+
+scala:
+   - 2.10.4
+   - 2.12.1
+
 script:
-  - ./sbt "++$SCALA_VERSION" test
-matrix:
-  include:
-    - env: SCALA_VERSION=2.10.5
-      os: linux
-      jdk: oraclejdk8
+   - sbt ++$TRAVIS_SCALA_VERSION test
