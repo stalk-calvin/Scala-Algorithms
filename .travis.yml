@@ -1,7 +1,4 @@
-language: java
-
-scala:
-   - 2.12.1
+language: scala
 
 sudo: required
 addons:
@@ -15,4 +12,4 @@ jdk:
 install: true
       
 script:
-   - sbt test
+   - sbt ++2.12.1 test
