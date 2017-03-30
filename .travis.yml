@@ -15,5 +15,4 @@ jdk:
 install: true
       
 script:
-   - sudo apt-get update && sudo apt-get install oracle-java8-installer
    - sbt ++$TRAVIS_SCALA_VERSION clean compile test
