@@ -1,4 +1,9 @@
-package Strings
+/*
+ * Copyright Calvin Lee Since 2017.
+ * All Rights Reserved.
+ */
+
+package Algorithms.Strings
 
 import org.scalatest._
 

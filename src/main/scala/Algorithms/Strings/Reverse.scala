@@ -1,4 +1,9 @@
-package Strings
+/*
+ * Copyright Calvin Lee Since 2017.
+ * All Rights Reserved.
+ */
+
+package Algorithms.Strings
 
 class Reverse {
     def reverseString1(s: String): String = {

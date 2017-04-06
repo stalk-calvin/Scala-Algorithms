@@ -1,3 +1,8 @@
+/*
+ * Copyright Calvin Lee Since 2017.
+ * All Rights Reserved.
+ */
+
 package Coursera
 
 class Week1 {
