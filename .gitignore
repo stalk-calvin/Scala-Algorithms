@@ -13,6 +13,7 @@ log/
 .idea/
 *.iml
 *.iws
+.clover
 
 # Mac
 .DS_Store
