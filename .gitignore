@@ -1,18 +1,18 @@
-*.prefs
+.prefs
 
 # Eclipse
-*.classpath
-*.project
-*.settings
+.classpath
+.project
+.settings
 
 # Maven
-log/
-/target
+log
+target
 
 # Intellij
-.idea/
-*.iml
-*.iws
+.idea
+.iml
+.iws
 .clover
 
 # Mac
@@ -36,4 +36,3 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
-.idea
