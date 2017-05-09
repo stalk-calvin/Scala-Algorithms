@@ -1,18 +1,8 @@
 language: scala
 
-scala:
-   - 2.12.1
- 
-sudo: required
-addons:
-  apt:
-    packages:
-      - oracle-java8-installer
-
 jdk:
   - oraclejdk8
 
 install: true
       
 script:
-   - sbt ++$TRAVIS_SCALA_VERSION clean compile test
