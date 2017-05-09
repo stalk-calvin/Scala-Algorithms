@@ -1,5 +1,5 @@
 # Calvin's "Playground" Project
- 
+
 [![CI](https://travis-ci.org/stalk-calvin/Scala-Algorithms.svg?branch=master)](https://travis-ci.org/stalk-calvin/Scala-Algorithms)
 [![Codacy Grade](https://api.codacy.com/project/badge/Grade/00b0116db3024fb088ac98952bad185d)](https://www.codacy.com/app/stalk-calvin/Scala-Algorithms?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=stalk-calvin/Scala-Algorithms&amp;utm_campaign=Badge_Grade)
 [![License](http://img.shields.io/:license-Apache%202-red.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
