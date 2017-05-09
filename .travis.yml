@@ -3,10 +3,12 @@ language: scala
 jdk:
   - oraclejdk8
 
-install: true
+env:
+  - CODACY_PROJECT_TOKEN=e6935aae4d71498f89c09ac1985b4d06
       
 script:
     - sbt clean coverage test
 
 after_success:
-    - sbt coveralls
+    - sbt coverageReport
+    - sbt codacyCoverage
