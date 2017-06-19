@@ -1,5 +1,11 @@
+/*
+ * Copyright Calvin Lee Since 2017.
+ * All Rights Reserved.
+ */
+
 package Coursera
 
+import Coursera.Week3.{BSTEmpty, BSTNonEmpty, IntSet}
 import org.scalatest.FunSuite
 
 class Week3Test extends FunSuite {

@@ -34,6 +34,14 @@ class Nil[T] extends MyList[T] {
   override def toString = "Nil"
 }
 
+object Nil2 extends MyList[Nothing] { //List is a bottom type (i.e., subtype of every type)
+  def isEmpty: Boolean = true
+  def head: Nothing = throw new NoSuchElementException("Nil.head")
+  def tail: Nothing = throw new NoSuchElementException("Nil.tail")
+
+  override def toString = "Nil2"
+}
+
 //Companion object - implements apply
 //Any class with an apply can be called, like a function, e.g. instead of 'new Cons(1,2)', we can now do 'List(1,2)'
 object MyList {
