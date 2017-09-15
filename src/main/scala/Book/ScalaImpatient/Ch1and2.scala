@@ -3,7 +3,7 @@
  * All Rights Reserved.
  */
 
-package Algorithms.scalaimpatient
+package Book.ScalaImpatient
 
 import scala.math._
 

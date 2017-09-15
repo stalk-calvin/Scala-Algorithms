@@ -3,7 +3,7 @@
  * All Rights Reserved.
  */
 
-package Algorithms.scalaimpatient
+package Book.ScalaImpatient
 
 import org.scalatest.FunSuite
 import scala.collection.mutable.ArrayBuffer
