@@ -17,7 +17,7 @@ class CheckIfConsecutiveTest extends FunSuite {
     }
 
     test("shouldBeConsecutive") {
-        val input: Array[Int] = Array(76, 78, 75, 77, 73, 74)
+        val input: Array[Int] = Array(76, 78, 75, 77, 73, 74, 81, 80, 79, 72)
         assert(fixture.areConsecutive(input))
     }
 
