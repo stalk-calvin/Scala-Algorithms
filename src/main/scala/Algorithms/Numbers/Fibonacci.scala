@@ -5,6 +5,8 @@
 
 package Algorithms.Numbers
 
+import scala.collection.mutable.ArrayBuffer
+
 class Fibonacci {
     def fibLoop(n: Int): Int = {
         var fibonacci, num = 0
@@ -23,12 +25,24 @@ class Fibonacci {
 
     def fibDP(n: Int): Int = {
         if (n <= 1) 1
-        var tracker:Array[Int] = new Array[Int](n+1)
+        var tracker: Array[Int] = new Array[Int](n + 1)
         tracker(0) = 1
         tracker(1) = 1
         for (i <- 2 to n) {
-            tracker(i) = tracker(i-1) + tracker(i-2)
+            tracker(i) = tracker(i - 1) + tracker(i - 2)
         }
         tracker(n)
+    }
+
+    def listFibonacci(n: Int):ArrayBuffer[Int] = {
+        val result = new ArrayBuffer[Int]()
+        if (n > 2) {
+            result.append(0)
+            result.append(1)
+            for (i <- 2 to n) {
+                result.append(result(i - 1) + result(i - 2))
+            }
+        }
+        result
     }
 }

@@ -7,6 +7,8 @@ package Algorithms.Numbers
 
 import org.scalatest.FunSuite
 
+import scala.collection.mutable.ArrayBuffer
+
 class FibonacciTest extends FunSuite {
 
     val fixture: Fibonacci = new Fibonacci
@@ -24,5 +26,10 @@ class FibonacciTest extends FunSuite {
     test("testFibDP") {
         val actual = fixture.fibDP(5)
         assert(actual == 8)
+    }
+
+    test("testListFibonacci") {
+        val actual = fixture.listFibonacci(10)
+        assert(actual equals ArrayBuffer(0,1,1,2,3,5,8,13,21,34,55))
     }
 }
